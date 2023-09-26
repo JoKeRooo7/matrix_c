@@ -12,7 +12,6 @@ typedef struct matrix_struct {
   int columns;
 } matrix_t;
 
-// void p(matrix_t *A);
 int MatrixCreate(int rows, int columns, matrix_t *result);
 void MatrixRemove(matrix_t *A);
 int MatrixCheckFail(double A, double B);
