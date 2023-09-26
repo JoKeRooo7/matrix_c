@@ -25,6 +25,7 @@ int MatrixMultMatrix(matrix_t *A, matrix_t *B, matrix_t *result);
 int MatrixTranspose(matrix_t *A, matrix_t *result);
 void MatrixEqMatrixForDet(int a, int b, matrix_t *A, matrix_t *B);
 double MatrixHelpFuctDet(int i, int j, matrix_t A);
+int MatrixCalcComplementsCycle(int a, int b, matrix_t *A, matrix_t *result);
 int MatrixCalcComplements(matrix_t *A, matrix_t *result);
 int MatrixDet(matrix_t *A, double *result); // determinant
 int MatrixInverse(matrix_t *A, matrix_t *result);
